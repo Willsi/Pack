@@ -1,0 +1,10 @@
+fi =open("Python-Dec", "r")
+file1=open("log.txt", "w")
+
+data = fi.readlines()
+import time
+
+for line in data:
+	file1.write(line)
+	time.sleep(4)
+	
